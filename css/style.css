@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(147, 147, 147);
+    
+}
+
+header{
+    background-color: black;
+    opacity: 0.4;
+    margin: 5% 20%;
+    border-radius: 20px;
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+    opacity: 1;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    line-height: 2em;
+    letter-spacing: 1.1px;
+    padding: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tablecontainer{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablerow{
+    display: table-row;
+}
+
+.tablecell{
+    display: table-cell;
+}
+
+.tablecell h4{
+    font-weight: 900px;
+    font-size: 1.4em;
+    color: rgb(221, 221, 221);
+    word-spacing: 4px;
+    width: 120px;
+    padding: 30px 5px 10px 20px;
+}
+
+.buttonone button{
+    background-color: rgb(74, 74, 74);
+    opacity: 0.3;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 4px 10px;
+    margin: 5px;
+}
+
+.buttonone{
+    margin-left: 45%;
+}
+
+button:hover{
+    box-shadow: 2px 2px 4px #343434,
+                -2px -2px 4px #434343;
+
+}
+
+button:active{
+    background-color: white;
+}
